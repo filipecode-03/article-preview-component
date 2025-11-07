@@ -10,8 +10,8 @@ function Profile2() {
     const [share, setShare] = useState(false)
     
     return (
-        <div className={`relative gap-5 pb-7 flex  pt-[15px] 
-                        lg:pt-[22px] ${share ? 'px-0 lg:px-10' : 'px-10' }`}>
+        <div className={`relative gap-5 pb-7 flex pt-[15px] 
+                        lg:pt-[25px] ${share ? 'px-0 lg:px-10' : 'px-10' }`}>
             <img src={profileImg} alt="profile" className='rounded-full w-[50px]' />
             <div className='tracking-[0.5px]'>
                 <h1 className='font-semibold'>Michelle Appleton</h1>
@@ -24,7 +24,7 @@ function Profile2() {
             </div>
             { share && (
                 <div className='absolute z-10 bg-[#49556B] flex gap-5 w-full h-[85%] rounded-b-2xl px-10
-                                lg:w-[265px] lg:h-[55%] lg:rounded-2xl lg:px-0 lg:gap-3 lg:left-[363px] lg:bottom-[100px]'>
+                                lg:w-[265px] lg:h-[55%] lg:rounded-2xl lg:px-0 lg:gap-3 lg:left-[457px] lg:bottom-[105px]'>
                     <div class="hidden lg:block absolute top-[55px] left-[119px] z-11
                                 w-0 h-0
                                 border-l-15 border-l-transparent
